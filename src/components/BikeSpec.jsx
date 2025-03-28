@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/BikeSpec.css';
+import './BikeSpec.css';
 
 const BikeSpecsCard = ({ bikeData }) => {
   // Transform scraped data into the component's expected format

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import '../styles/BikeBarChart.css';
+import './BikeBarChart.css';
 
 const BikePerformanceBarChart = ({ bikeData }) => {
   // Transform the fetched data into the performance data structure

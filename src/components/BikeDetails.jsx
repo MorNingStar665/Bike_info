@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/BikeDetails.css';
+import './BikeDetails.css';
 
 const BikeDetailsTable = ({ bikeData }) => {
   // Prepare specifications with fallback and error handling

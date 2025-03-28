@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search } from 'lucide-react';
-import '../styles/Navbar.css';
+import './Navbar.css';
 
 const Navbar = ({ onSearch, onLogoClick }) => {
   const [make, setMake] = useState('');

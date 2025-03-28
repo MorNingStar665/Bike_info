@@ -1,6 +1,6 @@
 import React from 'react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
-import '../styles/BikeRadar.css';
+import './BikeRadar.css';
 
 const BikePerformanceRadar = ({ bikeData }) => {
   // Helper function to safely parse values
