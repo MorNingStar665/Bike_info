@@ -1,0 +1,43 @@
+.bar-chart-container {
+  margin-top: 10px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-chart-wrapper {
+  padding: 15px;
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-chart-content {
+  flex-grow: 1;
+  overflow: visible;
+}
+
+.recharts-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.recharts-surface {
+  overflow: visible !important;
+}
+
+.recharts-responsive-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.bar-chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+/* Rest of the existing styles */
