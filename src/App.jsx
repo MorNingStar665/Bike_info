@@ -26,7 +26,7 @@ function App() {
       const normalizedMake = make.toLowerCase().trim();
       const normalizedModel = model.toLowerCase().trim().replace(/\s+/g, '-');
 
-      const response = await fetch(`https://scraper-q6ue.onrender.com/vehicle-specs?make=${normalizedMake}&model=${normalizedModel}`, {
+      const response = await fetch(`https://scraper-zfn4.onrender.com/vehicle-specs?make=${normalizedMake}&model=${normalizedModel}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
